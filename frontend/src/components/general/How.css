@@ -1,0 +1,29 @@
+.how-claims-container {
+    padding: 20px;
+    background-color: #cfdae8;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 700px;
+    color: #333;
+    margin-bottom: 40px;
+    margin-top: 120px;
+    border: 2px solid black;
+}
+
+.how-claims-container h2 {
+    text-align: center;
+    color: #002e6b;
+}
+
+.claims-steps {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.claims-steps li {
+    margin-bottom: 15px;
+}
+
+.claims-steps strong {
+    color: #002e6b;
+}

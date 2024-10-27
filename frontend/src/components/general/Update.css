@@ -1,0 +1,119 @@
+#update-claim {
+    padding: 20px;
+    background: linear-gradient(to bottom right, #cfdae8, #7fb2f6);
+    border-radius: 10px;
+    width:1250px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 120px;
+    margin-left: 50px;
+    border: 2px solid black;
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #002e6b;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.claim-info {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.claim-info p {
+    margin: 8px 0;
+    color: #002e6b;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.claim-info p:hover {
+    background-color: #f1f1f1;
+}
+
+strong {
+    font-weight: bold;
+    color: #002e6b;
+}
+
+.action-buttons {
+    margin-top: 20px;
+    display: flex;
+    height: 50px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.approve-btn,
+.reject-btn,
+.pending-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 120px;
+    border: 2px solid black;
+}
+
+.approve-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+.reject-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.pending-btn {
+    background-color: #002e6b;
+    color: white;
+    width: 170px;
+}
+
+.pending-btn:hover {
+    background-color: #002452;
+    transform: translateY(-2px);
+}
+
+.reject-btn:hover {
+    background-color: rgb(227, 7, 7);
+    transform: translateY(-2px);
+}
+
+.approve-btn:hover {
+    background-color: green;
+    transform: translateY(-2px);
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.reason-textarea {
+    width: 1150px;
+    height: 100px;
+    border: 2px solid #002e6b;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 20px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reason-textarea:focus {
+    border-color: #002452;
+    box-shadow: 0 0 5px rgba(0, 46, 107, 0.5);
+}

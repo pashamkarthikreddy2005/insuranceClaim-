@@ -1,0 +1,143 @@
+.new-claim-container {
+    background-color: #cfdae8;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 920px;
+    margin: auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:110px auto 20px auto;
+    border:2px solid black;
+}
+.chikkabal{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+}
+
+.chikkabal img{
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 80px;
+}
+
+.claim-options-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.claim-option {
+    flex: 1;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.option-border {
+    border: 2px solid #002e6b;
+    border-radius: 8px;
+    padding: 20px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    transition: box-shadow 0.3s;
+    position: relative;
+}
+
+.option-border:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.option-border:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -25px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.how-to-apply {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.how-image {
+    width: 80%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.option-image {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 8px;
+    object-fit: cover;
+}
+
+.claim-button {
+    background-color: #002e6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.claim-button:hover {
+    background-color: #002452;
+}
+
+.massmutual-button-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+    width:150px;
+    border:2px solid black;
+    padding: 10px;
+}
+  
+.massmutual-button-container h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}
+  
+.massmutual-button {
+    padding: 8px 12px;
+    background-color: #002e6b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+  
+.massmutual-button:hover {
+    background-color: #002452 ;
+}
+
+.claim-button:disabled {
+    cursor: not-allowed;
+    background-color: #002e6b;
+    color: #666;
+}

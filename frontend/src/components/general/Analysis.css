@@ -1,0 +1,77 @@
+.analysis-container {
+    padding: 20px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.chart-container, .table-container {
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+.analysis-head {
+    margin-top: 60px;
+}
+
+.chart-container h3, .table-container h3 {
+    text-align: center;
+    color: #002e6b;
+    margin-bottom: 15px;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.table-container th, .table-container td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    position: relative;
+}
+
+.table-container th {
+    background-color: #002e6b;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.table-container td {
+    background-color: #f5f5f5;
+}
+.sort-icon {
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.search-filter-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+.search-filter-container label{
+    margin-right: 10px;
+}
+
+.search-input {
+    margin-right: 10px;
+}
+
+.filter-container {
+    display: flex;
+}
+
+.filter-input {
+    margin-left: 10px;
+    width: 100px;
+}
+
+

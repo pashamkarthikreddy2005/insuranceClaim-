@@ -1,0 +1,51 @@
+
+.claim-desc {
+    padding: 20px;
+    background:#cfdae8;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    margin:120px 20px 0px 50px;
+    border: 2px solid black;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #002e6b;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.claim-info {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+}
+
+.claim-info p {
+    margin: 8px 0;
+    color: black;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.claim-info p:hover {
+    background-color: #f1f1f1;
+}
+
+strong {
+    font-weight: bold;
+    color: black;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}

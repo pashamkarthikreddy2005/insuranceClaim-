@@ -1,0 +1,109 @@
+#all-claims {
+    padding: 20px;
+    margin-top: 100px;
+}
+
+#claims-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#error-message {
+    color: red;
+}
+
+#no-claims {
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+th, td {
+    border: 2px solid #ddd;
+    padding: 12px;
+    text-align: right;
+    position: relative;
+    border: 2px solid black;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.sort-icon {
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ok:hover .sort-icon {
+    opacity: 1;
+}
+.ok:hover{
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+.view-update-button {
+    background-color: #002e6b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+}
+
+.view-update-button:hover {
+    background-color: #0056b3;
+}
+
+#filter-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#filter-row {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 100px;
+}
+
+.filter-item {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    min-width: 120px;
+}
+
+.status-circle {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+}

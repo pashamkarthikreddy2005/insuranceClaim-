@@ -1,0 +1,48 @@
+.all-agents,
+.all-users {
+    padding: 20px;
+    margin: 100px 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #002e6b;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+}
+#delete-agent{
+    border: 2px solid red;
+    background-color: red;
+}
+#delete-agent:hover{
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+}

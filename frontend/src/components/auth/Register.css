@@ -1,0 +1,106 @@
+.register-container {
+    width: 300px;
+    margin:50px auto 50px auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    margin-top: 120px;
+    z-index: 100;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+    color: #002e6b;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.loginok {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #002e6b;
+    border-radius: 5px;
+    background-color: #e8f1ff;
+    color: black;
+}
+#loginuser{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #002e6b;
+    border-radius: 5px;
+    background-color: #e8f1ff;
+    color: black;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #002e6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #002452;
+}
+.register-container div{
+    margin-right: 20px;
+}
+.error {
+    color: red;
+    text-align: center;
+}
+
+.success {
+    color: green;
+    text-align: center;
+}
+.response-message {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.role-options {
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 60px;
+}
+
+.role-options label {
+    cursor: pointer;
+}
+
+.small-footerr {
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    margin-top: -202px;
+    z-index: 0;
+}
+
+
+.small-footerr-content {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.small-footerr-svg {
+    width: 100%;
+    height: auto; 
+    display: block; 
+}

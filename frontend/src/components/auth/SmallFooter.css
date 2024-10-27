@@ -1,0 +1,22 @@
+.small-footer {
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    margin-top: -50px;
+}
+
+
+.small-footer-content {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.small-footer-svg {
+    width: 100%;
+    height: auto; 
+    display: block; 
+}

@@ -1,0 +1,122 @@
+#my-claims {
+    margin: 30px 30px 0px 30px;
+    padding: 20px;
+    border: 2px solid black; 
+    border-radius: 8px;
+    background-color: #f9f9f9; 
+    margin-top: 100px;
+}
+
+#claims-header {
+    text-align: center;
+    color: #333;
+}
+
+#error-message {
+    color: red;
+    text-align: center;
+}
+
+#claims-list {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+#claims-list li {
+    margin: 15px 0;
+    padding: 15px;
+    border:1px solid black;
+    border-radius: 10px;
+    background-color: #f3f5ff;
+    transition: box-shadow 0.3s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#claims-list li:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.claim-details {
+    flex-grow: 1;
+    padding-right: 20px; 
+}
+
+
+.view-claim-button:hover {
+    background-color: #002452;
+}
+
+#no-claims {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+.view-claim-button {
+    width: 200px;
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.view-claim-button.approved {
+    background-color: #4caf50;
+}
+
+.view-claim-button.approved:hover {
+    background-color: #388e3c;
+}
+
+.view-claim-button.rejected {
+    background-color: #f44336;
+}
+
+.view-claim-button.rejected:hover {
+    background-color: #d32f2f;
+}
+
+.view-claim-button:not(.approved):not(.rejected) {
+    background-color: #002e6b;
+}
+
+.view-claim-button:not(.approved):not(.rejected):hover {
+    background-color: #002452;
+}
+.claim-details {
+    flex-grow: 1;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.status-circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+#auth-message{
+    text-align: center;
+}
+.download-button {
+    margin-right: 8px;
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.download-button:hover {
+    background-color: #45a049;
+}
+
